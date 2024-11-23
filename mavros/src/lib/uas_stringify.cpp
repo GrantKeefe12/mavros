@@ -53,7 +53,8 @@ static const cmode_map arduplane_cmode_map{{
   {18, "QHOVER"},
   {19, "QLOITER"},
   {20, "QLAND"},
-  {21, "QRTL"}
+  {21, "QRTL"},
+  {22, "TAKEOFF"}
 }};
 
 /** APM:Copter custom mode -> string
