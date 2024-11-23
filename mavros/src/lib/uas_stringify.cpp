@@ -46,6 +46,7 @@ static const cmode_map arduplane_cmode_map{{
   {10, "AUTO"},
   {11, "RTL"},
   {12, "LOITER"},
+  {13, "TAKEOFF"},
   {14, "LAND"},                 // not in list
   {15, "GUIDED"},
   {16, "INITIALISING"},
@@ -54,7 +55,6 @@ static const cmode_map arduplane_cmode_map{{
   {19, "QLOITER"},
   {20, "QLAND"},
   {21, "QRTL"},
-  {22, "TAKEOFF"}
 }};
 
 /** APM:Copter custom mode -> string
